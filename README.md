@@ -171,8 +171,8 @@ adb devices -l
 Example output:
 ```text
 List of devices attached
-192.168.1.42:33553     device product:X670-GL model:Infinix_X670 device:Infinix-X670 transport_id:3
-adb-089092526K001344-NZIhOO._adb-tls-connect._tcp device product:X670-GL model:Infinix_X670 device:Infinix-X670 transport_id:2
+192.168.1.185:41235     device product:husky model:Pixel_8_Pro device:husky transport_id:3
+adb-9A8B7C6D5E4F3210-xyzABC._adb-tls-connect._tcp device product:husky model:Pixel_8_Pro device:husky transport_id:2
 ```
 
 > [!WARNING]
@@ -181,15 +181,15 @@ adb-089092526K001344-NZIhOO._adb-tls-connect._tcp device product:X670-GL model:I
 To fix this, set the target serial once in your active terminal session:
 - **PowerShell (Windows)**:
   ```powershell
-  $env:ANDROID_SERIAL="192.168.1.42:33553"
+  $env:ANDROID_SERIAL="192.168.1.185:41235"
   ```
 - **Command Prompt (cmd.exe)**:
   ```cmd
-  set ANDROID_SERIAL=192.168.1.42:33553
+  set ANDROID_SERIAL=192.168.1.185:41235
   ```
 - **Bash / Zsh (macOS / Linux)**:
   ```bash
-  export ANDROID_SERIAL="192.168.1.42:33553"
+  export ANDROID_SERIAL="192.168.1.185:41235"
   ```
 
 #### 3. One-Liner: Build, Install, & Launch via CLI
