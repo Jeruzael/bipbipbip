@@ -1,0 +1,6 @@
+{
+  "name": "WakeQuest",
+  "description": "Challenge-based alarm clock with mandatory sequential reminders, drawing trace challenges, and fruit-catching minigames.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
