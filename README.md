@@ -340,4 +340,4 @@ WakeQuest utilizes the Google Maps / Android Secrets Gradle Plugin configured vi
 
 ## 📄 License
 
-This project is licensed under the Apache 2.0 License. Feel free to use, modify, and distribute.
+This project is licensed under the **GNU Affero General Public License v3.0 or later (AGPL-3.0-or-later)**. See the [LICENSE](LICENSE) file for the full license text.
